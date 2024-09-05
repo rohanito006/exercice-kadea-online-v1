@@ -11,6 +11,7 @@
 header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 66px;
 }
 
@@ -134,7 +135,11 @@ h3{
   width: 240px;
   height: 27px;
   margin-top: 70px;
-  margin-left: 159px;
+}
+.learn-text-second-paragraph-2{
+  width: 240px;
+  height: 27px;
+  margin-top: 70px;
 }
 
 .learn-text-second-paragraph a{
@@ -145,6 +150,22 @@ h3{
   font-weight: 700;
   font-size: 18px;
   color: #D92950;
+}
+.learn-text-second-paragraph-2 a{
+  width: 240px;
+  height: 27px;
+  text-decoration: none;
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #D92950;
+}
+.learn-text{
+  display: flex;
+  width: 880px;
+  height: 27px;
+  margin-left: 159px;
+  gap: -180%;
 }
 
 footer{
