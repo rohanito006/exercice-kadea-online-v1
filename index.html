@@ -10,16 +10,16 @@
 
 <body>
     <header>
-        <div>
-            <img src="/dist/images/KDA-logo.png" alt="logo de Kadea online">
+        <div class="logo">
+            <img src="dist/images/KDA-logo.png" alt="logo de Kadea online">
         </div>
         <nav>
             <ul>
                 <li>
-                    <a href="#">Accueil</a>
+                    <a href="#" class="navbar-item-first">Accueil</a>
                 </li>
                 <li>
-                    <a href="#">Nos cours</a>
+                    <a href="nos cours.html" class="navbar-item-second">Nos cours</a>
                 </li>
             </ul>
         </nav>
@@ -27,9 +27,9 @@
 
     <main>
         <!--Start Hero section -->
-        <section>
+        <section class="hero-section">
             <!--  -->
-            <div>
+            <div class="hero-text">
                 <div>
                     <h1>
                         Apprenez à coder avec
@@ -37,16 +37,16 @@
                         c'est gratuit !
                     </h1>
                 </div>
-                <div>
+                <div class="hero-text-paragraph">
                     <p>
-                        Trouvez le bon cours et lancez-vous !!!
-                        Concentrez-vous sur ce qui est nécessaire pour acquérir
-                        une compétence spécifique et applicable.
+                        Trouvez le bon cours et lancez-vous !!! <br>
+                        Concentrez-vous sur ce qui est nécessaire pour acquérir <br>
+                        une compétence spécifique et applicable. <br>
                         Vous serez mieux outillé pour construire une carrière.
                     </p>
                 </div>
                 <div>
-                    <button>Lancez-vous</button>
+                    <button class="btn">Lancez-vous</button>
                 </div>
             </div>
             <!--  -->
@@ -57,12 +57,12 @@
         </section>
         <!--End Hero section -->
         <!--Start Option section -->
-        <div>
-            <article>
+        <div class="option-section">
+            <article  class="option-card">
                 <div>
                     <h3>Construire une carrière</h3>
                 </div>
-                <div>
+                <div class="option-card-text">
                     <p>
                         Nos offre sont complète,
                         avec tout ce dont vous avez
@@ -71,11 +71,11 @@
                     </p>
                 </div>
             </article>
-            <article>
+            <article  class="option-card">
                 <div>
                     <h3>Acquérir une compétence</h3>
                 </div>
-                <div>
+                <div class="option-card-text">
                     <p>
                         Concentrez-vous sur ce qui est
                         nécessaire pour acquérir
@@ -84,11 +84,11 @@
                     </p>
                 </div>
             </article>
-            <article>
+            <article  class="option-card">
                 <div>
                     <h3>Apprenez a coder</h3>
                 </div>
-                <div>
+                <div class="option-card-text">
                     <p>
                         Trouvez le bon cours et
                         lancez-vous.
@@ -99,18 +99,18 @@
         </div>
         <!--End Option section -->
         <!--Start Commencez à coder section -->
-        <section>
-            <div>
+        <section class="code-editor-section">
+            <div class="code-editor-section-img">
                 <img src="dist/images/Code-editor.png" alt="code editor">
             </div>
             <div>
                 <div>
                     <h2>
-                        Commencez à coder en
-                        quelques secondes
+                        Commencez à coder en <br>
+                        quelques secondess
                     </h2>
                 </div>
-                <div>
+                <div class="hero-text-paragraph-2">
                     <p>
                         Allez-y, essayez. Grâce à notre environnement
                         d'apprentissage pratique, vous écrirez du vrai code
@@ -118,7 +118,7 @@
                     </p>
                 </div>
                 <div>
-                    <button>
+                    <button class="btn">
                         Lancez-vous
                     </button>
                 </div>
@@ -126,47 +126,48 @@
         </section>
         <!--End Commencez à coder section -->
         <!--Start apprentissage section -->
-        <section>
+        <section class="learn-section">
             <div>
-                <h2>
+                <h4>
                     Démarrez votre apprentissage
-                </h2>
+                </h4>
             </div>
-            <div>
-                <article>
+
+            <div  class="learn-container">
+                <article class="learn-card">
                     <h3>
                         HTML et HTML5 de base
                     </h3>
                 </article>
-                <article>
+                <article  class="learn-card">
                     <h3>
                         Les bases du CSS
                     </h3>
                 </article>
-                <article>
+                <article  class="learn-card">
                     <h3>
                         conception visuelle appliquée
                     </h3>
                 </article>
             </div>
-            <div>
-                <p>
-                    <a href="#">Voir plus de cours -></a>
+            <div class="learn-text">
+                <p >
+                    <a href="nos cours.html">Voir plus de cours -></a>
                 </p>
             </div>
         </section>
         <!--End apprentissage section -->
         <!--Start Écrivez-nous section -->
-        <section>
-            <div>
+        <section class="contact-section">
+            <div class="contact-section-title">
                 <h2>
                     Écrivez-nous !
                 </h2>
             </div>
             <div>
                 <form>
-                    <div>
-                        <div>
+                    <div class="input-section">
+                        <div class="Input-name">
                             <div>
                                 <label for="nom">Votre nom</label>
                             </div>
@@ -174,7 +175,7 @@
                                 <input type="text" name="nom" id="nom">
                             </div>
                         </div>
-                        <div>
+                        <div class="Input-name">
                             <div>
                                 <label for="email">Votre email</label>
                             </div>
@@ -183,7 +184,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="input-message">
                         <div>
                             <label for="message">Votre message</label>
                         </div>
@@ -192,7 +193,7 @@
                         </div>
                     </div>
                     <div>
-                        <button>Envoyez votre message</button>
+                        <button class="btn-2">Envoyez votre message</button>
                     </div>
                 </form>
             </div>
@@ -201,7 +202,7 @@
     </main>
     <footer>
         <div>
-            <img src="/dist/images/KDA-logo.png" alt="logo de Kadea online">
+            <img src="dist/images/KDA-logo.png" alt="logo de Kadea online">
         </div>
         <div>
             <p>
