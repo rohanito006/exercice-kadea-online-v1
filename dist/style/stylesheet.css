@@ -272,7 +272,7 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 220px){
   header{
     display: flex;
     flex-direction: column;
